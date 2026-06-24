@@ -1,0 +1,39 @@
+/* Leave Management Styles */
+.leave-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.leave-status.pending {
+    background-color: #f39c12;
+    color: white;
+}
+
+.leave-status.approved {
+    background-color: #27ae60;
+    color: white;
+}
+
+.leave-status.rejected {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.leave-details {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.leave-details .row {
+    margin-bottom: 15px;
+}
+
+.leave-details strong {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    display: block;
+}
